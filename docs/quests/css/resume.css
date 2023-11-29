@@ -1,0 +1,25 @@
+* {
+    font-size: 20px;
+}
+main {
+    border-style: solid;
+    width: 900px;
+    margin: 50px;
+    padding: 50px
+}
+* table {
+    height: 50px;
+    width: 900px;
+    border: solid black 1px;
+}
+* td.back {
+    background-color: darkgray;
+}
+* tr {
+    text-align: center;
+    border: solid black 1px;
+}
+* td {
+    width: 100px;
+    border: solid black 1px;
+}
