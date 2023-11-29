@@ -10,3 +10,8 @@
     display: inline-block;
     padding: 20px;
 }
+
+a {
+    /* 밑줄 제거 */
+    text-decoration: none;
+}
