@@ -1,0 +1,19 @@
+/* unvisited link 방문하지 않은 링크*/
+a:link {
+  color: red;
+}
+
+/* visited link 한번이라도 방문한 링크*/
+a:visited {
+  color: green;
+}
+
+/* mouse over link 마우스 올려 놓으면 선택유무 확인하는 링크*/
+a:hover {
+  color: hotpink;
+}
+
+/* selected link 클릭한 링크*/
+a:active {
+  color: blue;
+}
