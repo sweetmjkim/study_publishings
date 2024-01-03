@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowns</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- customer CSS commons.css -->
+    <link rel="stylesheet" href="../css/commons.css">
+</head>
+
+<body>
+    <nav>nav</nav>
+    <main>
+        <h2>dropdown direction button</h2>
+        <div class="container">
+            <!-- 두 tag를 dropdown으로 묶음 -->
+            <div class="drop down dropup">
+                <!-- <div class="drop down dropstart"> -->
+                <!-- <div class="drop down dropend"> -->
+                <!-- button과 list를 연결 data-bs-toggle="dropdown -->
+                <button class="btn btn-primary dropdown-toggle"
+                data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="http://">Link 1</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="http://">Link 2</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <!-- 두 tag를 dropdown으로 묶음 -->
+                <div class="dropdown">
+                    <!-- 드랍다운메뉴 만들기, bs라는건 부트스트랩 준말. -->
+                    <!-- button과 list를 연결 data-bs-toggle="dropdown -->
+                    <button class="btn btn-primary dropdown-toggle"
+                    data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="http://">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://">Link 2</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </main>
+    <footer>footer</footer>
+</body>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
